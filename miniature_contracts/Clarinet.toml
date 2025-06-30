@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.recovery_mech]
+path = 'contracts/recovery_mech.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.role_bassed_access_control]
 path = 'contracts/role_bassed_access_control.clar'
 clarity_version = 2
